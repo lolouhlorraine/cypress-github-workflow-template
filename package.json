@@ -3,7 +3,7 @@
   "scripts": {
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "test:ci": "cypress:run"
+    "test:ci": "npm run cypress:run"
   },
   "devDependencies": {
     "cypress": "^15.7.1",
