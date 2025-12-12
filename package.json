@@ -1,0 +1,12 @@
+{
+  "name": "cypress-github-workflow-template",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:ci": "cypress:run"
+  },
+  "devDependencies": {
+    "cypress": "^15.7.1",
+    "typescript": "^5.9.3"
+  }
+}
